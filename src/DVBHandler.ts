@@ -1,5 +1,5 @@
 
-const departureEndpoint:string = 'https://webapi.vvo-online.de/dm';
+const departureEndpoint:string = 'https://corsproxy.io/?' + encodeURIComponent('https://webapi.vvo-online.de/dm');
 
 interface DepartureContainer {
     Departures: Departure[],
